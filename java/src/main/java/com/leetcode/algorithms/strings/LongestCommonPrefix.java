@@ -35,7 +35,7 @@ public class LongestCommonPrefix {
             System.out.print("Enter the number of strings: ");
             int count = scanner.nextInt();
 
-             strings = new String[count];
+            strings = new String[count];
             System.out.println("Enter the strings separated by spaces:");
 
             for (int i = 0; i < count; i++) {
