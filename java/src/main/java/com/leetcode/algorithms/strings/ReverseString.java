@@ -21,7 +21,7 @@ public class ReverseString {
         StringBuilder reversed = new StringBuilder();
 
         for (int i = words.length - 1; i >= 0; i--) {
-            if (reversed.length() > 0) {
+            if (!reversed.isEmpty()) {
                 reversed.append(' ');
             }
             reversed.append(words[i]);
